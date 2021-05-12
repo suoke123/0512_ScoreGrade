@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>학점 지정하기</title>
+    <style>
+        * {
+            font-size: 30px;
+        }
+        div {
+            margin: 20px 5px;
+        }
+        fieldset {
+            width: 400px;
+            padding: 30px;
+        }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+<body>
+    <h1>학점 지정하기</h1>
+
+    <div id="inputArea">
+        점수입력
+        <input type="text" size="3" id="score">
+        <button type="button" id="sbmBtn">학점확인</button>
+    </div>
+
+    <fieldset>
+        <legend>학점</legend>
+        <span id="res"></span>
+    </fieldset>
+</body>
+</html>
